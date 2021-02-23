@@ -242,7 +242,6 @@ D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0\win-x64\
 D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0\win-x64\hostfxr.dll
 D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0\win-x64\hostpolicy.dll
 D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0\win-x64\mscordaccore.dll
-D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0\win-x64\mscordaccore_amd64_amd64_5.0.220.61120.dll
 D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0\win-x64\mscordbi.dll
 D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0\win-x64\mscorrc.dll
 D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0\win-x64\ucrtbase.dll
@@ -405,3 +404,7 @@ D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\obj\Debug\net5.0\win-x64\
 D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\obj\Debug\net5.0\win-x64\ref\ConsoleTopshelf.Web.dll
 D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\obj\Debug\net5.0\win-x64\ConsoleTopshelf.Web.pdb
 D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\obj\Debug\net5.0\win-x64\ConsoleTopshelf.Web.genruntimeconfig.cache
+D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0\win-x64\Microsoft.AspNetCore.Hosting.WindowsServices.dll
+D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\obj\Debug\net5.0\win-x64\ConsoleTopshelf.Web.csprojAssemblyReference.cache
+D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0\win-x64\mscordaccore_amd64_amd64_5.0.321.7212.dll
+D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0\win-x64\System.Diagnostics.EventLog.Messages.dll

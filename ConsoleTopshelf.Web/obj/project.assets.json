@@ -2,6 +2,21 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Microsoft.AspNetCore.Hosting.WindowsServices/5.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ServiceProcess.ServiceController": "5.0.0"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Hosting.WindowsServices.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Hosting.WindowsServices.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -1314,6 +1329,21 @@
     }
   },
   "libraries": {
+    "Microsoft.AspNetCore.Hosting.WindowsServices/5.0.2": {
+      "sha512": "hBSe/b3tdS16IoIG/QS8CxprUq+rLO26EGlC8HPO+Q3AnP/sgphE1u69pvuXlzyvJJZsFgG8thElV+tFQwBk9g==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.hosting.windowsservices/5.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net5.0/Microsoft.AspNetCore.Hosting.WindowsServices.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Hosting.WindowsServices.xml",
+        "microsoft.aspnetcore.hosting.windowsservices.5.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.hosting.windowsservices.nuspec"
+      ]
+    },
     "Microsoft.CSharp/4.0.1": {
       "sha512": "17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
       "type": "package",
@@ -4656,6 +4686,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Microsoft.AspNetCore.Hosting.WindowsServices >= 5.0.2",
       "Microsoft.Extensions.Hosting.WindowsServices >= 5.0.1",
       "Serilog.AspNetCore >= 3.4.0",
       "Serilog.Sinks.Async >= 1.4.0",
@@ -4706,6 +4737,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Hosting.WindowsServices": {
+            "target": "Package",
+            "version": "[5.0.2, )"
+          },
           "Microsoft.Extensions.Hosting.WindowsServices": {
             "target": "Package",
             "version": "[5.0.1, )"
@@ -4741,7 +4776,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

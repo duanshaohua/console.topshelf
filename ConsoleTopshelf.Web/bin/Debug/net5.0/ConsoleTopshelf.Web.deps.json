@@ -25,6 +25,7 @@
     ".NETCoreApp,Version=v5.0": {
       "ConsoleTopshelf.Web/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Hosting.WindowsServices": "5.0.2",
           "Microsoft.Extensions.Hosting.WindowsServices": "5.0.1",
           "Serilog.AspNetCore": "3.4.0",
           "Serilog.Sinks.Async": "1.4.0",
@@ -318,6 +319,20 @@
         },
         "compile": {
           "ConsoleTopshelf.Web.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Hosting.WindowsServices/5.0.2": {
+        "dependencies": {
+          "System.ServiceProcess.ServiceController": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Hosting.WindowsServices.dll": {
+            "assemblyVersion": "5.0.2.0",
+            "fileVersion": "5.0.220.61302"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Hosting.WindowsServices.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.1": {
@@ -2883,6 +2898,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AspNetCore.Hosting.WindowsServices/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hBSe/b3tdS16IoIG/QS8CxprUq+rLO26EGlC8HPO+Q3AnP/sgphE1u69pvuXlzyvJJZsFgG8thElV+tFQwBk9g==",
+      "path": "microsoft.aspnetcore.hosting.windowsservices/5.0.2",
+      "hashPath": "microsoft.aspnetcore.hosting.windowsservices.5.0.2.nupkg.sha512"
     },
     "Microsoft.CSharp/4.0.1": {
       "type": "package",

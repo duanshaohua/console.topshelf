@@ -1,1 +1,336 @@
-2021-02-07 19:00:43.419 +08:00 [INF] Starting...
+2021-02-23 10:57:24.181 +08:00 [INF] Starting...
+2021-02-23 10:57:24.232 +08:00 [INF] TopshelfService被调用
+2021-02-23 10:57:24.260 +08:00 [INF] 服务启动
+2021-02-23 10:57:24.519 +08:00 [INF] User profile is available. Using 'C:\Users\63257\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-23 10:57:24.921 +08:00 [INF] Now listening on: http://[::]:37488
+2021-02-23 10:57:24.922 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-23 10:57:24.922 +08:00 [INF] Hosting environment: Production
+2021-02-23 10:57:24.922 +08:00 [INF] Content root path: D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0\publish
+2021-02-23 10:57:27.718 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 10:57:27.872 +08:00 [WRN] Failed to determine the https port for redirect.
+2021-02-23 10:57:28.055 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 10:57:28.170 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 10:57:28.198 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 10:57:28.198 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 10:57:28.200 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 10:57:28.200 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 10:57:28.368 +08:00 [INF] Executed page /Index in 193.0978ms
+2021-02-23 10:57:28.368 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 10:57:28.375 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 659.8153ms
+2021-02-23 10:57:28.493 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/css/site.css - -
+2021-02-23 10:57:28.497 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/lib/bootstrap/dist/css/bootstrap.min.css - -
+2021-02-23 10:57:28.503 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2021-02-23 10:57:28.503 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2021-02-23 10:57:28.503 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/lib/jquery/dist/jquery.min.js - -
+2021-02-23 10:57:28.510 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0\publish\wwwroot\js\site.js'
+2021-02-23 10:57:28.510 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 6.7492ms
+2021-02-23 10:57:28.511 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0\publish\wwwroot\css\site.css'
+2021-02-23 10:57:28.511 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/css/site.css - - - 200 1417 text/css 17.9914ms
+2021-02-23 10:57:28.526 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0\publish\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-02-23 10:57:28.526 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0\publish\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-02-23 10:57:28.526 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\20604\dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0\publish\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-02-23 10:57:28.527 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 23.4068ms
+2021-02-23 10:57:28.527 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 23.4068ms
+2021-02-23 10:57:28.527 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 29.9391ms
+2021-02-23 10:57:29.875 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 10:57:29.876 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 10:57:29.878 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 10:57:29.878 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 10:57:29.878 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 10:57:29.878 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 10:57:29.878 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 10:57:29.881 +08:00 [INF] Executed page /Index in 3.3278ms
+2021-02-23 10:57:29.881 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 10:57:29.881 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 5.9116ms
+2021-02-23 10:57:30.838 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 10:57:30.838 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 10:57:30.838 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 10:57:30.838 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 10:57:30.838 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 10:57:30.838 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 10:57:30.838 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 10:57:30.839 +08:00 [INF] Executed page /Index in 1.5091ms
+2021-02-23 10:57:30.839 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 10:57:30.839 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 1.8596ms
+2021-02-23 10:57:31.267 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 10:57:31.268 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 10:57:31.268 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 10:57:31.268 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 10:57:31.268 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 10:57:31.268 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 10:57:31.268 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 10:57:31.269 +08:00 [INF] Executed page /Index in 1.5415ms
+2021-02-23 10:57:31.269 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 10:57:31.269 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 2.0574ms
+2021-02-23 10:57:31.400 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 10:57:31.400 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 10:57:31.400 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 10:57:31.400 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 10:57:31.400 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 10:57:31.400 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 10:57:31.400 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 10:57:31.401 +08:00 [INF] Executed page /Index in 0.6008ms
+2021-02-23 10:57:31.401 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 10:57:31.401 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 0.8781ms
+2021-02-23 10:57:32.359 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 10:57:32.359 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 10:57:32.359 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 10:57:32.359 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 10:57:32.359 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 10:57:32.359 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 10:57:32.359 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 10:57:32.360 +08:00 [INF] Executed page /Index in 0.6222ms
+2021-02-23 10:57:32.360 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 10:57:32.360 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 0.8645ms
+2021-02-23 10:57:32.578 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 10:57:32.578 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 10:57:32.578 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 10:57:32.579 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 10:57:32.579 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 10:57:32.579 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 10:57:32.579 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 10:57:32.580 +08:00 [INF] Executed page /Index in 1.1484ms
+2021-02-23 10:57:32.580 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 10:57:32.580 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 1.7745ms
+2021-02-23 10:57:32.728 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 10:57:32.729 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 10:57:32.729 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 10:57:32.729 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 10:57:32.729 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 10:57:32.729 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 10:57:32.729 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 10:57:32.730 +08:00 [INF] Executed page /Index in 0.9537ms
+2021-02-23 10:57:32.730 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 10:57:32.730 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 1.4103ms
+2021-02-23 10:57:33.571 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 10:57:33.571 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 10:57:33.572 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 10:57:33.572 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 10:57:33.572 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 10:57:33.572 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 10:57:33.572 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 10:57:33.574 +08:00 [INF] Executed page /Index in 1.9359ms
+2021-02-23 10:57:33.574 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 10:57:33.575 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 3.7391ms
+2021-02-23 10:57:33.737 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 10:57:33.737 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 10:57:33.737 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 10:57:33.737 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 10:57:33.737 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 10:57:33.737 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 10:57:33.737 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 10:57:33.738 +08:00 [INF] Executed page /Index in 0.7303ms
+2021-02-23 10:57:33.738 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 10:57:33.738 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 1.1276ms
+2021-02-23 10:57:37.576 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 10:57:37.576 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 10:57:37.577 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 10:57:37.577 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 10:57:37.577 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 10:57:37.577 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 10:57:37.577 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 10:57:37.577 +08:00 [INF] Executed page /Index in 0.7642ms
+2021-02-23 10:57:37.577 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 10:57:37.577 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 1.2100ms
+2021-02-23 10:57:37.988 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/Privacy - -
+2021-02-23 10:57:37.992 +08:00 [INF] Executing endpoint '/Privacy'
+2021-02-23 10:57:37.994 +08:00 [INF] Route matched with {page = "/Privacy"}. Executing page /Privacy
+2021-02-23 10:57:37.994 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.PrivacyModel.OnGet - ModelState is "Valid"
+2021-02-23 10:57:37.994 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 10:57:37.994 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 10:57:37.994 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 10:57:37.997 +08:00 [INF] Executed page /Privacy in 2.4959ms
+2021-02-23 10:57:37.997 +08:00 [INF] Executed endpoint '/Privacy'
+2021-02-23 10:57:37.997 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/Privacy - - - 200 - text/html;+charset=utf-8 8.8610ms
+2021-02-23 10:57:39.366 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 10:57:39.366 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 10:57:39.366 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 10:57:39.366 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 10:57:39.366 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 10:57:39.366 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 10:57:39.366 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 10:57:39.367 +08:00 [INF] Executed page /Index in 0.6758ms
+2021-02-23 10:57:39.367 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 10:57:39.367 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 1.0377ms
+2021-02-23 11:47:32.520 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 11:47:32.529 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 11:47:32.536 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 11:47:32.541 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 11:47:32.541 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 11:47:32.541 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 11:47:32.542 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 11:47:32.569 +08:00 [INF] Executed page /Index in 32.1118ms
+2021-02-23 11:47:32.569 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 11:47:32.569 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 52.3444ms
+2021-02-23 11:47:33.308 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 11:47:33.308 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 11:47:33.308 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 11:47:33.308 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 11:47:33.308 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 11:47:33.309 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 11:47:33.309 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 11:47:33.310 +08:00 [INF] Executed page /Index in 1.3073ms
+2021-02-23 11:47:33.310 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 11:47:33.310 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 1.8841ms
+2021-02-23 11:47:33.770 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 11:47:33.770 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 11:47:33.770 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 11:47:33.770 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 11:47:33.770 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 11:47:33.770 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 11:47:33.770 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 11:47:33.772 +08:00 [INF] Executed page /Index in 2.105ms
+2021-02-23 11:47:33.772 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 11:47:33.772 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 2.4878ms
+2021-02-23 11:47:33.939 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 11:47:33.939 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 11:47:33.939 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 11:47:33.939 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 11:47:33.939 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 11:47:33.939 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 11:47:33.939 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 11:47:33.941 +08:00 [INF] Executed page /Index in 1.6639ms
+2021-02-23 11:47:33.941 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 11:47:33.941 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 2.0357ms
+2021-02-23 11:47:34.083 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 11:47:34.083 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 11:47:34.083 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 11:47:34.083 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 11:47:34.083 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 11:47:34.083 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 11:47:34.083 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 11:47:34.083 +08:00 [INF] Executed page /Index in 0.5144ms
+2021-02-23 11:47:34.083 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 11:47:34.083 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 0.8036ms
+2021-02-23 11:47:37.116 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 11:47:37.116 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 11:47:37.116 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 11:47:37.116 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 11:47:37.116 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 11:47:37.116 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 11:47:37.116 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 11:47:37.116 +08:00 [INF] Executed page /Index in 0.5294ms
+2021-02-23 11:47:37.116 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 11:47:37.116 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 0.7456ms
+2021-02-23 11:47:37.913 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 11:47:37.913 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 11:47:37.913 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 11:47:37.913 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 11:47:37.913 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 11:47:37.913 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 11:47:37.913 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 11:47:37.913 +08:00 [INF] Executed page /Index in 0.4725ms
+2021-02-23 11:47:37.913 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 11:47:37.914 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 0.7802ms
+2021-02-23 11:47:38.083 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 11:47:38.083 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 11:47:38.083 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 11:47:38.083 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 11:47:38.083 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 11:47:38.083 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 11:47:38.083 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 11:47:38.084 +08:00 [INF] Executed page /Index in 0.7081ms
+2021-02-23 11:47:38.084 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 11:47:38.084 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 1.0372ms
+2021-02-23 11:47:38.232 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 11:47:38.232 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 11:47:38.232 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 11:47:38.232 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 11:47:38.232 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 11:47:38.232 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 11:47:38.232 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 11:47:38.233 +08:00 [INF] Executed page /Index in 0.7164ms
+2021-02-23 11:47:38.233 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 11:47:38.233 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 1.1315ms
+2021-02-23 11:47:38.619 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 11:47:38.619 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 11:47:38.619 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 11:47:38.619 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 11:47:38.619 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 11:47:38.619 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 11:47:38.619 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 11:47:38.620 +08:00 [INF] Executed page /Index in 0.4327ms
+2021-02-23 11:47:38.620 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 11:47:38.620 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 0.7347ms
+2021-02-23 11:47:38.923 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 11:47:38.923 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 11:47:38.923 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 11:47:38.923 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 11:47:38.923 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 11:47:38.923 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 11:47:38.923 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 11:47:38.924 +08:00 [INF] Executed page /Index in 0.5293ms
+2021-02-23 11:47:38.924 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 11:47:38.924 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 1.0094ms
+2021-02-23 11:47:39.095 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 11:47:39.095 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 11:47:39.095 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 11:47:39.095 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 11:47:39.095 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 11:47:39.095 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 11:47:39.095 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 11:47:39.095 +08:00 [INF] Executed page /Index in 0.4739ms
+2021-02-23 11:47:39.096 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 11:47:39.096 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 0.7502ms
+2021-02-23 11:47:39.248 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 11:47:39.249 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 11:47:39.249 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 11:47:39.249 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 11:47:39.249 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 11:47:39.249 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 11:47:39.249 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 11:47:39.250 +08:00 [INF] Executed page /Index in 1.0503ms
+2021-02-23 11:47:39.250 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 11:47:39.250 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 2.2972ms
+2021-02-23 11:47:47.706 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 11:47:47.706 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 11:47:47.706 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 11:47:47.706 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 11:47:47.706 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 11:47:47.706 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 11:47:47.706 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 11:47:47.706 +08:00 [INF] Executed page /Index in 0.4609ms
+2021-02-23 11:47:47.706 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 11:47:47.706 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 0.8076ms
+2021-02-23 11:47:48.499 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 11:47:48.499 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 11:47:48.499 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 11:47:48.499 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 11:47:48.499 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 11:47:48.500 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 11:47:48.500 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 11:47:48.500 +08:00 [INF] Executed page /Index in 0.4595ms
+2021-02-23 11:47:48.500 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 11:47:48.500 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 0.8907ms
+2021-02-23 11:47:48.666 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 11:47:48.666 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 11:47:48.666 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 11:47:48.667 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 11:47:48.667 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 11:47:48.667 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 11:47:48.667 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 11:47:48.668 +08:00 [INF] Executed page /Index in 1.6553ms
+2021-02-23 11:47:48.668 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 11:47:48.668 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 2.1529ms
+2021-02-23 11:47:48.831 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 11:47:48.832 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 11:47:48.832 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 11:47:48.832 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 11:47:48.832 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 11:47:48.832 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 11:47:48.832 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 11:47:48.833 +08:00 [INF] Executed page /Index in 1.7668ms
+2021-02-23 11:47:48.834 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 11:47:48.834 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 2.1959ms
+2021-02-23 11:47:52.899 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-02-23 11:47:52.899 +08:00 [INF] Executing endpoint '/Index'
+2021-02-23 11:47:52.899 +08:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-02-23 11:47:52.899 +08:00 [INF] Executing handler method ConsoleTopshelf.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-02-23 11:47:52.899 +08:00 [INF] Executed handler method OnGet, returned result .
+2021-02-23 11:47:52.900 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-02-23 11:47:52.900 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-02-23 11:47:52.900 +08:00 [INF] Executed page /Index in 0.601ms
+2021-02-23 11:47:52.900 +08:00 [INF] Executed endpoint '/Index'
+2021-02-23 11:47:52.900 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 200 - text/html;+charset=utf-8 0.9595ms
+2021-02-23 11:47:57.265 +08:00 [INF] 服务停止
+2021-02-23 11:47:57.266 +08:00 [INF] Application is shutting down...
