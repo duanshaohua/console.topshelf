@@ -4695,22 +4695,25 @@
   },
   "packageFolders": {
     "C:\\Users\\63257\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\20604\\dsh\\learn\\ConsoleTopshelf\\ConsoleTopshelf.Web\\ConsoleTopshelf.Web.csproj",
+      "projectUniqueName": "D:\\20604\\dsh\\Dsh\\learn\\ConsoleTopshelf\\ConsoleTopshelf.Web\\ConsoleTopshelf.Web.csproj",
       "projectName": "ConsoleTopshelf.Web",
-      "projectPath": "D:\\20604\\dsh\\learn\\ConsoleTopshelf\\ConsoleTopshelf.Web\\ConsoleTopshelf.Web.csproj",
+      "projectPath": "D:\\20604\\dsh\\Dsh\\learn\\ConsoleTopshelf\\ConsoleTopshelf.Web\\ConsoleTopshelf.Web.csproj",
       "packagesPath": "C:\\Users\\63257\\.nuget\\packages\\",
-      "outputPath": "D:\\20604\\dsh\\learn\\ConsoleTopshelf\\ConsoleTopshelf.Web\\obj\\",
+      "outputPath": "D:\\20604\\dsh\\Dsh\\learn\\ConsoleTopshelf\\ConsoleTopshelf.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\63257\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -4719,6 +4722,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://exp.sxledao.com:5310/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4776,7 +4780,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

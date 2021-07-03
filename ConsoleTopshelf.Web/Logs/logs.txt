@@ -806,3 +806,26 @@
 2021-02-22 11:04:26.645 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 307 0 - 34.0931ms
 2021-02-22 11:04:56.970 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
 2021-02-22 11:04:56.971 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 307 0 - 0.3167ms
+2021-03-16 19:37:04.459 +08:00 [INF] Starting...
+2021-03-16 19:37:05.943 +08:00 [INF] TopshelfService被调用
+2021-03-16 19:37:06.023 +08:00 [INF] 服务启动
+2021-03-16 19:37:08.735 +08:00 [INF] User profile is available. Using 'C:\Users\63257\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-16 19:37:09.351 +08:00 [INF] Now listening on: http://[::]:37488
+2021-03-16 19:37:09.352 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-16 19:37:09.352 +08:00 [INF] Hosting environment: Development
+2021-03-16 19:37:09.352 +08:00 [INF] Content root path: D:\20604\dsh\Dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0
+2021-03-16 19:37:24.766 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-03-16 19:37:24.800 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 307 0 - 38.0547ms
+2021-03-16 19:37:41.283 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-03-16 19:37:41.284 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 307 0 - 0.3000ms
+2021-03-16 19:37:58.454 +08:00 [INF] Application is shutting down...
+2021-03-16 19:38:37.228 +08:00 [INF] Starting...
+2021-03-16 19:38:37.322 +08:00 [INF] TopshelfService被调用
+2021-03-16 19:38:37.395 +08:00 [INF] 服务启动
+2021-03-16 19:38:39.414 +08:00 [INF] User profile is available. Using 'C:\Users\63257\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-16 19:38:40.494 +08:00 [INF] Now listening on: http://[::]:37488
+2021-03-16 19:38:40.494 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-16 19:38:40.494 +08:00 [INF] Hosting environment: Development
+2021-03-16 19:38:40.494 +08:00 [INF] Content root path: D:\20604\dsh\Dsh\learn\ConsoleTopshelf\ConsoleTopshelf.Web\bin\Debug\net5.0
+2021-03-16 19:38:53.267 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:37488/ - -
+2021-03-16 19:38:53.304 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:37488/ - - - 307 0 - 39.5685ms
